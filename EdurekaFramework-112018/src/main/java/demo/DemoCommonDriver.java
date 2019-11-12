@@ -2,7 +2,7 @@ package demo;
 
 import commonLibs.implementation.CommonDriver;
 
-public class DemoCommonDriver {
+public class DemoCommonDriver{
 
 	public static void main(String[] args) {
 		try {
