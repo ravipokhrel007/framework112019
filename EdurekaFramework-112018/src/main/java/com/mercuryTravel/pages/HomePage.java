@@ -28,10 +28,10 @@ public class HomePage extends BaseOperation {
 	@FindBy(linkText = "Register")
 	private WebElement registerLink;
 	
-	@FindBy(linkText = "sign_user_email")
+	@FindBy(id= "sign_user_email")
 	private WebElement userEmailId;
 	
-	@FindBy(linkText = "sign_user_password")
+	@FindBy(id = "sign_user_password")
 	private WebElement userPassword;
 	
 	@FindBy(xpath= "//div[@id='modalLogin']//form[@class = 'form-signin']//button")
@@ -50,7 +50,9 @@ public class HomePage extends BaseOperation {
 		mouseControl.moveToElement(customerLogin);
 		elementControl.clickElement(userLogin);
 		
+		Thread.sleep(3000);
 		elementControl.setText(userEmailId, sUserEmailId);
+		
 		elementControl.setText(userPassword, sUserPassword);
 		
 		elementControl.clickElement(loginButton);

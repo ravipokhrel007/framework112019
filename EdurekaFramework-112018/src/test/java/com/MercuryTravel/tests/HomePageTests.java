@@ -1,15 +1,18 @@
 package com.MercuryTravel.tests;
 
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class HomePageTests extends TestSetup {
 
+	
+	@Parameters({"sUserEmailId","sUserPassword"})
 	@Test
-	public void verifyLoginToApplication() throws Exception {
+	public void verifyLoginToApplication(String sUserEmailId, String sUserPassword ) throws Exception {
 		
-		String sUserEmailId = "saurabh.d2106@gmail.com";
-		String sUserPassword	= "Pri@1234";
+
 		homepage.userLogin(sUserEmailId, sUserPassword);
 		
 		String actualWelcomeText = "Welcome, Saurav";
