@@ -30,7 +30,7 @@ public class AmazonPOM1Test {
 		cmnDriver.setPageLoadTimeout(40);
 		cmnDriver.setElementDetectionTimeout(10);
 		
-		cmnDriver.navigateToFirstUrl("https://www.amazon.in");
+		cmnDriver.navigateToFirstUrl("https://www.amazon.in/");
 		
 		driver = cmnDriver.getDriver();
 		
