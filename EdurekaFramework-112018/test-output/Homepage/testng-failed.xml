@@ -7,7 +7,7 @@
     <classes>
       <class name="com.MercuryTravel.tests.HomePageTests">
         <methods>
-          <include name="verifyLoginToApplication" invocation-numbers="0"/>
+          <include name="verifyLoginToApplication"/>
           <include name="cleanup"/>
           <include name="setup"/>
         </methods>
