@@ -2,94 +2,24 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2025" started-at="2020-01-07T22:38:27 MST" finished-at="2020-01-07T22:38:29 MST">
+  <suite name="Homepage" duration-ms="59" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2025" started-at="2020-01-07T22:38:27 MST" finished-at="2020-01-07T22:38:29 MST">
-      <class name="designPatterns.AmazonPOM1Test">
-        <test-method status="FAIL" signature="initialize()[pri:0, instance:designPatterns.AmazonPOM1Test@627551fb]" name="initialize" is-config="true" duration-ms="1981" started-at="2020-01-07T22:38:27 MST" finished-at="2020-01-07T22:38:29 MST">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+    <test name="Test" duration-ms="59" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+      <class name="com.MercuryTravel.tests.HomePageTests">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="setup" is-config="true" duration-ms="11" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KAPAMAC114YHTD7', ip: 'fe80:0:0:0:eb:6e62:edef:b49c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
-Driver info: driver.version: CommonDriver
-remote stacktrace: 0   chromedriver                        0x0000000103c7bf09 chromedriver + 3694345
-1   chromedriver                        0x0000000103c08fd3 chromedriver + 3223507
-2   chromedriver                        0x00000001039a858f chromedriver + 730511
-3   chromedriver                        0x000000010390e10b chromedriver + 98571
-4   chromedriver                        0x000000010390a22a chromedriver + 82474
-5   chromedriver                        0x0000000103937b71 chromedriver + 269169
-6   chromedriver                        0x0000000103934e83 chromedriver + 257667
-7   chromedriver                        0x000000010391023d chromedriver + 107069
-8   chromedriver                        0x00000001039111d5 chromedriver + 111061
-9   chromedriver                        0x0000000103c3707f chromedriver + 3412095
-10  chromedriver                        0x0000000103c43ced chromedriver + 3464429
-11  chromedriver                        0x0000000103c43a78 chromedriver + 3463800
-12  chromedriver                        0x0000000103c16959 chromedriver + 3279193
-13  chromedriver                        0x0000000103c44548 chromedriver + 3466568
-14  chromedriver                        0x0000000103c2b1b7 chromedriver + 3363255
-15  chromedriver                        0x0000000103c62474 chromedriver + 3589236
-16  chromedriver                        0x0000000103c81ce7 chromedriver + 3718375
-17  libsystem_pthread.dylib             0x00007fff6e2ed661 _pthread_body + 340
-18  libsystem_pthread.dylib             0x00007fff6e2ed50d _pthread_body + 0
-19  libsystem_pthread.dylib             0x00007fff6e2ecbf9 thread_start + 13
-]]>
+              <![CDATA[null/config/config.properties (No such file or directory)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KAPAMAC114YHTD7', ip: 'fe80:0:0:0:eb:6e62:edef:b49c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
-Driver info: driver.version: CommonDriver
-remote stacktrace: 0   chromedriver                        0x0000000103c7bf09 chromedriver + 3694345
-1   chromedriver                        0x0000000103c08fd3 chromedriver + 3223507
-2   chromedriver                        0x00000001039a858f chromedriver + 730511
-3   chromedriver                        0x000000010390e10b chromedriver + 98571
-4   chromedriver                        0x000000010390a22a chromedriver + 82474
-5   chromedriver                        0x0000000103937b71 chromedriver + 269169
-6   chromedriver                        0x0000000103934e83 chromedriver + 257667
-7   chromedriver                        0x000000010391023d chromedriver + 107069
-8   chromedriver                        0x00000001039111d5 chromedriver + 111061
-9   chromedriver                        0x0000000103c3707f chromedriver + 3412095
-10  chromedriver                        0x0000000103c43ced chromedriver + 3464429
-11  chromedriver                        0x0000000103c43a78 chromedriver + 3463800
-12  chromedriver                        0x0000000103c16959 chromedriver + 3279193
-13  chromedriver                        0x0000000103c44548 chromedriver + 3466568
-14  chromedriver                        0x0000000103c2b1b7 chromedriver + 3363255
-15  chromedriver                        0x0000000103c62474 chromedriver + 3589236
-16  chromedriver                        0x0000000103c81ce7 chromedriver + 3718375
-17  libsystem_pthread.dylib             0x00007fff6e2ed661 _pthread_body + 340
-18  libsystem_pthread.dylib             0x00007fff6e2ed50d _pthread_body + 0
-19  libsystem_pthread.dylib             0x00007fff6e2ecbf9 thread_start + 13
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at commonLibs.implementation.CommonDriver.<init>(CommonDriver.java:36)
-at designPatterns.AmazonPOM1Test.initialize(AmazonPOM1Test.java:29)
+              <![CDATA[java.io.FileNotFoundException: null/config/config.properties (No such file or directory)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at commonLibs.utils.ConfigReader.getProperties(ConfigReader.java:14)
+at com.MercuryTravel.tests.TestSetup.setup(TestSetup.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,93 +48,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="SKIP" signature="searchProduct()[pri:0, instance:designPatterns.AmazonPOM1Test@627551fb]" name="searchProduct" duration-ms="0" started-at="2020-01-07T22:38:29 MST" finished-at="2020-01-07T22:38:29 MST">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="verifyLoginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="verifyLoginToApplication" duration-ms="0" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KAPAMAC114YHTD7', ip: 'fe80:0:0:0:eb:6e62:edef:b49c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
-Driver info: driver.version: CommonDriver
-remote stacktrace: 0   chromedriver                        0x0000000103c7bf09 chromedriver + 3694345
-1   chromedriver                        0x0000000103c08fd3 chromedriver + 3223507
-2   chromedriver                        0x00000001039a858f chromedriver + 730511
-3   chromedriver                        0x000000010390e10b chromedriver + 98571
-4   chromedriver                        0x000000010390a22a chromedriver + 82474
-5   chromedriver                        0x0000000103937b71 chromedriver + 269169
-6   chromedriver                        0x0000000103934e83 chromedriver + 257667
-7   chromedriver                        0x000000010391023d chromedriver + 107069
-8   chromedriver                        0x00000001039111d5 chromedriver + 111061
-9   chromedriver                        0x0000000103c3707f chromedriver + 3412095
-10  chromedriver                        0x0000000103c43ced chromedriver + 3464429
-11  chromedriver                        0x0000000103c43a78 chromedriver + 3463800
-12  chromedriver                        0x0000000103c16959 chromedriver + 3279193
-13  chromedriver                        0x0000000103c44548 chromedriver + 3466568
-14  chromedriver                        0x0000000103c2b1b7 chromedriver + 3363255
-15  chromedriver                        0x0000000103c62474 chromedriver + 3589236
-16  chromedriver                        0x0000000103c81ce7 chromedriver + 3718375
-17  libsystem_pthread.dylib             0x00007fff6e2ed661 _pthread_body + 340
-18  libsystem_pthread.dylib             0x00007fff6e2ed50d _pthread_body + 0
-19  libsystem_pthread.dylib             0x00007fff6e2ecbf9 thread_start + 13
-]]>
+              <![CDATA[null/config/config.properties (No such file or directory)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KAPAMAC114YHTD7', ip: 'fe80:0:0:0:eb:6e62:edef:b49c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
-Driver info: driver.version: CommonDriver
-remote stacktrace: 0   chromedriver                        0x0000000103c7bf09 chromedriver + 3694345
-1   chromedriver                        0x0000000103c08fd3 chromedriver + 3223507
-2   chromedriver                        0x00000001039a858f chromedriver + 730511
-3   chromedriver                        0x000000010390e10b chromedriver + 98571
-4   chromedriver                        0x000000010390a22a chromedriver + 82474
-5   chromedriver                        0x0000000103937b71 chromedriver + 269169
-6   chromedriver                        0x0000000103934e83 chromedriver + 257667
-7   chromedriver                        0x000000010391023d chromedriver + 107069
-8   chromedriver                        0x00000001039111d5 chromedriver + 111061
-9   chromedriver                        0x0000000103c3707f chromedriver + 3412095
-10  chromedriver                        0x0000000103c43ced chromedriver + 3464429
-11  chromedriver                        0x0000000103c43a78 chromedriver + 3463800
-12  chromedriver                        0x0000000103c16959 chromedriver + 3279193
-13  chromedriver                        0x0000000103c44548 chromedriver + 3466568
-14  chromedriver                        0x0000000103c2b1b7 chromedriver + 3363255
-15  chromedriver                        0x0000000103c62474 chromedriver + 3589236
-16  chromedriver                        0x0000000103c81ce7 chromedriver + 3718375
-17  libsystem_pthread.dylib             0x00007fff6e2ed661 _pthread_body + 340
-18  libsystem_pthread.dylib             0x00007fff6e2ed50d _pthread_body + 0
-19  libsystem_pthread.dylib             0x00007fff6e2ecbf9 thread_start + 13
-
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at commonLibs.implementation.CommonDriver.<init>(CommonDriver.java:36)
-at designPatterns.AmazonPOM1Test.initialize(AmazonPOM1Test.java:29)
+              <![CDATA[java.io.FileNotFoundException: null/config/config.properties (No such file or directory)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(FileInputStream.java:195)
+at java.io.FileInputStream.<init>(FileInputStream.java:138)
+at java.io.FileInputStream.<init>(FileInputStream.java:93)
+at commonLibs.utils.ConfigReader.getProperties(ConfigReader.java:14)
+at com.MercuryTravel.tests.TestSetup.setup(TestSetup.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -233,15 +93,48 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:designPatterns.AmazonPOM1Test@627551fb]" name="cleanUp" is-config="true" duration-ms="-1578461909209" started-at="2020-01-07T22:38:29 MST" finished-at="1969-12-31T17:00:00 MST">
+        </test-method> <!-- verifyLoginToApplication -->
+        <test-method status="FAIL" signature="cleanup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="cleanup" is-config="true" duration-ms="1" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.MercuryTravel.tests.TestSetup.cleanup(TestSetup.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- designPatterns.AmazonPOM1Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.MercuryTravel.tests.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Homepage -->
 </testng-results>

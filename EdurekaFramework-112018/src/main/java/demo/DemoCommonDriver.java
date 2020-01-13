@@ -7,6 +7,7 @@ public class DemoCommonDriver{
 	public static void main(String[] args) {
 		try {
 			CommonDriver cmnDriver= new CommonDriver("chrome");
+			//CommonDriver cmnDriver= new CommonDriver("firefox");
 			
 			cmnDriver.setPageLoadTimeout(40);
 			cmnDriver.setElementDetectionTimeout(20);

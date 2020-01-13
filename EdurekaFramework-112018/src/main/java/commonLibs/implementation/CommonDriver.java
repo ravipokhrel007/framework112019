@@ -16,8 +16,6 @@ public class CommonDriver  implements Driver{
 		return driver;
 	}
 
-
-
 	private int pageLoadTimeout;
 	private int elementDetectionTimeout;
 	
