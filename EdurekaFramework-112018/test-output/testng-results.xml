@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Homepage" duration-ms="59" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+  <suite name="Homepage" duration-ms="62" started-at="2020-01-15T13:35:27 MST" finished-at="2020-01-15T13:35:27 MST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+    <test name="Test" duration-ms="62" started-at="2020-01-15T13:35:27 MST" finished-at="2020-01-15T13:35:27 MST">
       <class name="com.MercuryTravel.tests.HomePageTests">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="setup" is-config="true" duration-ms="11" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="setup" is-config="true" duration-ms="14" started-at="2020-01-15T13:35:27 MST" finished-at="2020-01-15T13:35:27 MST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[null/config/config.properties (No such file or directory)]]>
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="verifyLoginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="verifyLoginToApplication" duration-ms="0" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+        <test-method status="SKIP" signature="verifyLoginToApplication(java.lang.String, java.lang.String)[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="verifyLoginToApplication" duration-ms="0" started-at="2020-01-15T13:35:27 MST" finished-at="2020-01-15T13:35:27 MST">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[null/config/config.properties (No such file or directory)]]>
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginToApplication -->
-        <test-method status="FAIL" signature="cleanup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="cleanup" is-config="true" duration-ms="1" started-at="2020-01-07T23:16:33 MST" finished-at="2020-01-07T23:16:33 MST">
+        <test-method status="FAIL" signature="cleanup()[pri:0, instance:com.MercuryTravel.tests.HomePageTests@551aa95a]" name="cleanup" is-config="true" duration-ms="2" started-at="2020-01-15T13:35:27 MST" finished-at="2020-01-15T13:35:27 MST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException

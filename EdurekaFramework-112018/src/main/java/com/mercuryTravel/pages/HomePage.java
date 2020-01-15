@@ -50,7 +50,7 @@ public class HomePage extends BaseOperation {
 		mouseControl.moveToElement(customerLogin);
 		elementControl.clickElement(userLogin);
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		elementControl.setText(userEmailId, sUserEmailId);
 		
 		elementControl.setText(userPassword, sUserPassword);
