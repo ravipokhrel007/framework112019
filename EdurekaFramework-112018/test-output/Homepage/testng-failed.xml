@@ -10,6 +10,7 @@
           <include name="verifyLoginToApplication"/>
           <include name="cleanup"/>
           <include name="setup"/>
+          <include name="afterAMethod"/>
         </methods>
       </class> <!-- com.MercuryTravel.tests.HomePageTests -->
     </classes>

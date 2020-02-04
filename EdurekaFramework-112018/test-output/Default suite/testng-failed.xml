@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MercuryTravel.tests.HomePageTests">
+      <class name="com.MercuryTravel.tests.HomePageTests1">
         <methods>
           <include name="verifyLoginToApplication"/>
-          <include name="cleanup"/>
+          <include name="afterMethod"/>
           <include name="setup"/>
+          <include name="cleanup"/>
         </methods>
-      </class> <!-- com.MercuryTravel.tests.HomePageTests -->
+      </class> <!-- com.MercuryTravel.tests.HomePageTests1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

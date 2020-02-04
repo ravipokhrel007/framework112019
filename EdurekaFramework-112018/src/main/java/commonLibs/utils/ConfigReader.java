@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConfigReader {
 
-	public static Properties  getProperties(String filename) throws Exception {
+	public static Properties getProperties(String filename) throws Exception {
 		
 		filename = filename.trim();
 		

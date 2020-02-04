@@ -8,32 +8,14 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Homepage</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">62</td><td></td><td></td></tr>
+<tr><th colspan="7">Homepagetest1</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17,982</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Homepage</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.MercuryTravel.tests.HomePageTests</td><td><a href="#m0">cleanup</a></td><td rowspan="1">1579120527268</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m1">setup</a></td><td rowspan="1">1579120527230</td><td rowspan="1">14</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.MercuryTravel.tests.HomePageTests</td><td><a href="#m2">verifyLoginToApplication</a></td><td rowspan="1">1579120527263</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Homepagetest1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.MercuryTravel.tests.HomePageTests1</td><td><a href="#m0">verifyLoginToApplication</a></td><td rowspan="1">1580777366840</td><td rowspan="1">6805</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.MercuryTravel.tests.HomePageTests#cleanup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.MercuryTravel.tests.TestSetup.cleanup(TestSetup.java:50)
+<h2>Test</h2><h3 id="m0">com.MercuryTravel.tests.HomePageTests1#verifyLoginToApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>saurabh.d2106@gmail.com</td><td>Pro@1234</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected:&lt;Welcome, Saurabh1&gt; but was:&lt;Welcome, Saurabh&gt;
+	at com.MercuryTravel.tests.HomePageTests1.verifyLoginToApplication(HomePageTests1.java:27)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.MercuryTravel.tests.HomePageTests#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: null/config/config.properties (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at commonLibs.utils.ConfigReader.getProperties(ConfigReader.java:14)
-	at com.MercuryTravel.tests.TestSetup.setup(TestSetup.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.MercuryTravel.tests.HomePageTests#verifyLoginToApplication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: null/config/config.properties (No such file or directory)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
-	at commonLibs.utils.ConfigReader.getProperties(ConfigReader.java:14)
-	at com.MercuryTravel.tests.TestSetup.setup(TestSetup.java:29)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Homepage">
   <test name="Test">
-    		<groups>
+    		
+    	<parameter name="sUserEmailId" value="saurabh.d2106@gmail.com"></parameter>
+  	<parameter name="sUserPassword" value="Pro@1234"></parameter>
+  	
+  	<groups>
   			<run>
   					<include name="Smoke"></include>
   			</run>
   		</groups>
-    	<parameter name="sUserEmailId" value="saurabh.d2106@gmail.com"></parameter>
-  	<parameter name="sUserPassword" value="Pro@1234"></parameter>
     <classes>
       <class name="com.MercuryTravel.tests.HomePageTests"/>
     </classes>

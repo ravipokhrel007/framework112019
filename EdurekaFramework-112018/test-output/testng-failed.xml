@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Homepage]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Homepagetest1]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="sUserPassword" value="Pro@1234"/>
-    <parameter name="sUserEmailId" value="saurabh.d2106@gmail.com"/>
+    <parameter name="sUserPassword1" value="Pro@1234"/>
+    <parameter name="sUserEmailId1" value="saurabh.d2106@gmail.com"/>
     <classes>
-      <class name="com.MercuryTravel.tests.HomePageTests">
+      <class name="com.MercuryTravel.tests.HomePageTests1">
         <methods>
-          <include name="verifyLoginToApplication"/>
-          <include name="cleanup"/>
+          <include name="verifyLoginToApplication" invocation-numbers="0"/>
           <include name="setup"/>
+          <include name="cleanup"/>
+          <include name="afterAMethod"/>
         </methods>
-      </class> <!-- com.MercuryTravel.tests.HomePageTests -->
+      </class> <!-- com.MercuryTravel.tests.HomePageTests1 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Homepage] -->
+</suite> <!-- Failed suite [Homepagetest1] -->
