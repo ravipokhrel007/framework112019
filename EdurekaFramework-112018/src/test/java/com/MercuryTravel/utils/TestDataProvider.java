@@ -23,7 +23,7 @@ public class TestDataProvider{
 			configFileName = System.getProperty("user.dir") + "/config/config.properties";
 			configProperties = ConfigReader.getProperties(configFileName);
 			
-			inputFileName = configProperties.getProperty("inputFileName");
+			inputFileName = configProperties.getProperty("inputFilename");
 			sheetName = configProperties.getProperty("sheetName");
 			
 

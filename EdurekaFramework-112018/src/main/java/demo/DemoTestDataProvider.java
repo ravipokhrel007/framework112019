@@ -2,10 +2,7 @@ package demo;
 
 import org.testng.annotations.Test;
 
-//import com.mercuryTravel.utils.TestDataProvider;
-
-import com.MercuryTravel.utils.TestDataProvider;
-
+import commonLibs.utils.TestDataProvider;
 
 public class DemoTestDataProvider {
 	
