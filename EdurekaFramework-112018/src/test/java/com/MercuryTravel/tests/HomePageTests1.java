@@ -20,7 +20,7 @@ public class HomePageTests1 extends TestSetup1 {
 		extentReport.test = extentReport.extent.createTest("Tc - 121 - Verify Login to Mercury Travel with parameters : " + sUserEmailId1 + " " + sUserPassword1 );
 		homepage1.userLogin(sUserEmailId1, sUserPassword1);
 		
-		String actualWelcomeText = "Welcome, Saurabh1";
+		String actualWelcomeText = "Welcome, Saurabh";
 		
 		String expectedWelcomeText = homepage1.getWelcomeText();
 		

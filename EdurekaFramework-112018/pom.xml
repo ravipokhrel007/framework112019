@@ -14,6 +14,24 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M4</version>
+          <configuration>
+          <suiteXmlFiles>
+          		<!--  TestNG suite XML Files  -->
+          		<suiteXmlFile>testcaseXmlFiles/homepagetest1.xml</suiteXmlFile>
+          </suiteXmlFiles>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
   <dependencies>
   <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -26,7 +44,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+   <!-- <scope>test</scope>-->
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
